@@ -48,7 +48,7 @@ const sdUploader = new StableDiffusionUploader({
   client,
 });
 sdUploader.init();
-
+app.get('/', (req, res) => res.status(200).send({message: "It works lol"}))
 app.post("/upload/sd-image", async (req, res) => {
   const { images } = req.body;
   try {
