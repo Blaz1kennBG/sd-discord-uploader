@@ -2,12 +2,12 @@
   "name": "Me bot",
   "version": "1.0.0",
   "description": "",
-  "main": "bot.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index"
   },
-  "author": "HDE - Hristiyan Dimov",
+  "author": "NO_AUTHOR",
   "license": "MIT",
   "dependencies": {
     "@discordjs/builders": "^1.4.0",
@@ -26,6 +26,7 @@
     "fs-extra": "^11.1.1",
     "gmail-send": "^1.8.14",
     "mongoose": "^7.5.0",
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "pm2": "^5.3.0"
   }
 }
