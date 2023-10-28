@@ -1,0 +1,31 @@
+{
+  "name": "Me bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index"
+  },
+  "author": "HDE - Hristiyan Dimov",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/builders": "^1.4.0",
+    "@discordjs/collection": "^1.3.0",
+    "@discordjs/rest": "^1.5.0",
+    "axios": "^1.5.1",
+    "check-if-word": "^1.2.1",
+    "cli-color": "^2.0.3",
+    "cors": "^2.8.5",
+    "discord-economy-super": "^1.7.6",
+    "discord-html-transcripts": "^3.1.5",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.1.1",
+    "gmail-send": "^1.8.14",
+    "mongoose": "^7.5.0",
+    "nodemon": "^3.0.1"
+  }
+}
