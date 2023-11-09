@@ -53,10 +53,8 @@ class StableDiffusionUploader {
 
   async init() {
     setTimeout(async () => {
-      this.channel = await this.client.channels.cache.get(
-        "1167803342114783292"
-      );
-      console.log(this.channel);
+      this.channel = await this.client.channels.cache.get(this.channelId);
+      console.log("Messages forwarded to channel >>> ", this.channel.name);
       this.start();
     }, 2000);
   }
